@@ -1,0 +1,109 @@
+<html>
+
+<style>
+    .logo{
+    float:left;
+    width: 30%;
+    box-sizing: border-box;
+    padding-left: 620px;
+    }
+    .heading{
+    float:right;
+    width: 61%;
+    }
+    textarea{
+    background-color: #eafbdd;
+    }
+
+
+</style>
+
+<div class="logo">
+<img src="https://www.globaldatinginsights.com/wp-content/uploads/2021/02/WhatsApp_Logo_2.png" width="220" height="180">
+    </div>
+<div class="heading"><br>
+<h1 style="font-size:55; color: black;">&nbsp;&nbsp;&nbsp;&nbsp;Marketing  Automation<br><br></h1></div>
+
+<style>
+    html{
+    background: #25d366;
+
+    }
+    .manual{
+    float: left;
+    width: 50%;
+    background: #ededed;
+    padding-left: 170px;
+    box-sizing: border-box;
+    height: 600px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius:24px;
+    }
+    .automated{
+    width: 50%;
+    background: #ededed;
+    height: 600px;
+    float: right;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius:24px;
+    }
+    button {
+      background-color:#128c7e;
+      border: medium;
+      border-color: black;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      font-size: 16px;
+        }
+        button:hover{
+          background-color: #075e54;
+          color:black;
+
+        }
+        .tab{
+            padding-left: 165px;
+            }
+            ::placeholder {
+          color: gray;
+          font-size: 18px;
+          font-weight: bold;
+
+        }
+        .tab1{
+        padding-left:75px;
+    }
+    .rad{
+    border-radius: 50px;
+    }
+
+
+</style>
+
+<div class="manual">
+  <h1 style="font-size:35px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manual entry of numbers</h1><br><br>
+<form action="send" method="post">
+    {% csrf_token %}
+<textarea name="content" rows="13" cols="80" placeholder="Enter the message you want to send here" required></textarea>
+<br><br><br>
+<textarea name="numbers" rows="4" cols="80" placeholder="Enter the number/Multiple numbers separated by comma"></textarea>
+<br><br><br>
+    <span class="tab"></span><button type="submit">Send Message</button>
+</form><br><br>
+    </form>
+</div>
+<div class="automated"><center>
+    <h1 style="font-size:35px">Bulk entry of numbers from csv</h1><br><br>
+    <form action="sendfromcsv" method="post">
+
+        {% csrf_token %}
+            <textarea name="content" rows="13" cols="80" placeholder="Enter the message you want to send here" required></textarea>
+    <br><br><br>
+        <h1 style="font-size: 20px;">Select Csv File</h1><br>
+        <span class="tab1"></span><input type="file" name="filepath"><br><br><br>
+        <button type="submit">Input from csv</button>
+    </center>
+
+
+
+</div></html>

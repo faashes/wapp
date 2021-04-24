@@ -1,0 +1,96 @@
+--------------------
+Date: 21:4:2021
+Time: 21:21
+Phone number: +918888829223
+Message: Hi from whatsapp auto
+--------------------
+Date: 21:4:2021
+Time: 21:26
+Phone number: +918888829223
+Message: Hi from whatsapp auto
+--------------------
+Date: 21:4:2021
+Time: 21:27
+Phone number: +918888829223
+Message: Hi from whatsappweb auto
+--------------------
+Date: 21:4:2021
+Time: 21:28
+Phone number: +918669996623
+Message: Hi from whatsappweb auto
+--------------------
+Date: 21:4:2021
+Time: 21:28
+Phone number: +918669996623
+Message: Hi from whatsappweb auto
+--------------------
+Date: 21:4:2021
+Time: 21:40
+Phone number: +918669996623
+Message: Hi from whatsappweb auto
+--------------------
+Date: 21:4:2021
+Time: 21:40
+Group_id: Log
+Message: Hi from whatsappweb
+--------------------
+Date: 21:4:2021
+Time: 21:41
+Phone number: +918669996623
+Message: Hi from whatsappweb auto
+--------------------
+Date: 21:4:2021
+Time: 21:43
+Phone number: +918669996623
+Message: Hi from whatsappweb auto
+--------------------
+Date: 21:4:2021
+Time: 21:43
+Group_id: Log
+Message: Hi from whatsappweb
+--------------------
+Date: 21:4:2021
+Time: 21:46
+Phone number: +918669996623
+Message: Hi from whatsappweb auto
+--------------------
+Date: 21:4:2021
+Time: 21:46
+Phone number: +919503339966
+Message: Hi from whatsappweb auto
+--------------------
+Date: 21:4:2021
+Time: 21:49
+Phone number: +918669996623
+Message: Hi from whatsappweb auto
+--------------------
+Date: 21:4:2021
+Time: 21:49
+Phone number: +918669996623
+Message: Hi from whatsappweb auto
+--------------------
+Date: 21:4:2021
+Time: 21:51
+Phone number: +918669996623
+Message: Hi from whatsappweb auto
+--------------------
+Date: 21:4:2021
+Time: 21:52
+Phone number: +919503339966
+Message: Hi from whatsappweb auto
+--------------------
+Date: 21:4:2021
+Time: 22:23
+Phone number: +918669996623
+Message: Hi from whatsappweb auto
+--------------------
+Date: 21:4:2021
+Time: 22:28
+Phone number: +918669996623
+Message: Hi from whatsappweb auto
+--------------------
+Date: 21:4:2021
+Time: 22:29
+Phone number: +918669996623
+Message: Hi from whatsappweb auto
+--------------------
