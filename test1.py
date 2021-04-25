@@ -1,6 +1,8 @@
-from tkinter import Tk
-from tkinter.filedialog import askopenfilename
+import csv
 
-Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
-filename = askopenfilename() # show an "Open" dialog box and return the path to the selected file
-print(filename)
+p = ['1','2','3']
+
+with open('names.csv', 'w') as new_file:
+    for p in p:
+        csv_writer = csv.writer(new_file)
+        csv_writer.writerow([p])

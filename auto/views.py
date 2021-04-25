@@ -99,7 +99,7 @@ def send(request):
             time.sleep(1 + (random.randint(1, 30)) / 100)
 
             time.sleep(3 + (random.randint(1, 30)) / 100)
-            browser.close()
+
 
         else:
             pass
